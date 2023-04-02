@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 //import DropDownList from './components/Basics/DropDownList';
-import store from './IncrementDecrementRedux/store';
+//import store from './IncrementDecrementRedux/store';
+import store from './EcommerceApp/redux/store';
 import {Provider} from 'react-redux'
 
 store.subscribe(()=>{console.log(store.getState())});
